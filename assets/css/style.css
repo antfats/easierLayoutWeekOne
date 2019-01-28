@@ -32,7 +32,7 @@ body{
     height:250px;
     margin-bottom:50px;
     text-align:center;
-    overflow:auto;
+    overflow:hidden;
 }
 #article{
     float:left;
@@ -56,7 +56,7 @@ body{
     margin-left:35px;
     padding: 5px 0px 5px 0px;
 }
-#p{
+#p01{
     float:left;
     background:#ebebeb;
     position:absolute;
@@ -70,9 +70,29 @@ body{
 #aside{
     float:left;
     width:50%;
+    background:#ebebeb;
+    overflow:hidden;
+    margin-left:4px;
+    margin-top:17px;
+    height:250px;
+    text-align:center;
 
 }
 #foot{
-    margin:900 auto 0 auto;
+    text-align:center;
+    background:#ebebeb;
+    height:75px;
+    width:100%px;
+    margin-top:330px;
+    padding-top:50px;
+}
+#aside{
+width:480px;
+height:250px;
+
+}
+html{
+    background :#777;
+color:#777;
 
 }
